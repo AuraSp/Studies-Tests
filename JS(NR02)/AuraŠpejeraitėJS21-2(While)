@@ -1,0 +1,39 @@
+----------1.--------
+
+let intervalas = 50;
+
+while (intervalas <= 60) {
+	console.log(intervalas)
+	intervalas++;
+}
+
+----------2.--------
+
+var x = 1;
+var sum = 0;
+var sum2 = 0;
+var sum3 = 0;
+while (x !== 100) {
+	x++;
+  if (x % 7 == 0) {
+	  sum+= x;
+  }
+	if(x % 8 == 0) {
+		sum2+= x;
+	}
+	if(x % 10 == 3) {
+		sum3+= x;
+	}
+}
+    console.log(sum);
+console.log(sum2);
+console.log(sum3);
+
+----------3.--------
+
+let užd. = 15;
+let dienos = 0;
+
+while(u !== 0) {
+d+= d + 1
+}

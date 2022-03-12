@@ -1,0 +1,14 @@
+.logo {
+    width: 20em;
+    padding-bottom: 1em;
+}
+
+#apelsinai, #kiviai, #vynuogės {
+    display: block;
+    position: relative;
+    left: 3em;
+}
+
+.vardas, .metai {
+    font-style: italic;
+}

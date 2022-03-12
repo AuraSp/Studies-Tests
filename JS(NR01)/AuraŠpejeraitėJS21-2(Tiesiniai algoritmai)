@@ -1,0 +1,41 @@
+		1.
+let a = prompt('Type a number:', 3);
+let b = prompt('Type another number:', 4);
+let c = prompt('Type another number:', 5);
+
+let multiply = a*b*c;
+console.log('Gauta: ' multiply);
+
+		2.
+let sk = prompt('Type a number:', 3);
+let n = prompt('Type another number:', 5);
+
+let power = Math.pow(3, 5);
+console.log('Gauta: ' power);
+
+		3.
+let x = prompt('Type a number:', 3);
+
+let y = 16*Math.pow(x, 4) + 2*x;
+console.log('Gauta: ' y);
+
+		4.
+let p = prompt('Type a number:', 17);
+let d = Math.floor(p / 7); //*Kiek pilnų/
+let likutis = 17 - (7*2);
+
+console.log('Gauta: ' + d +' pilnos dėžės, liko ' + likutis);
+
+		5.
+let a = prompt('Type amount:', 1);
+let b = prompt('Type amount:', 12);
+let c = prompt('Type amount:', 3);
+
+let ct = (a*5 + b*10)/100;
+let eur = c*2 + ct;
+
+console.log('Gauta: ' + eur + 'Eur');
+
+		6.
+----		
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='description' content='HTML atsiskaitymas'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='author' content='Aura Špejeraitė'>
+    <meta name='keywords' content='HTML|CSS'>
+    <link rel="stylesheet" href="uzsakymas.css">
+    <title>uzsakymas</title>
+</head>
+
+
+<body>
+
+    <header>
+        <figure>
+            <img src='../IMG/LOGO/barbora-logo.png' class='logo' alt='barbora-logo-tipas'>
+        </figure>
+    </header>
+    <hr>
+
+    <nav>
+        <ul>
+            <li><a href='../Index.html'>Barbora</a></li>
+            <li><a href='../PAGES/akcijos.html'>Akcijos</a></li>
+            <li><a href='#'>Pirkti</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+    <main>
+        <h1>Mokėjimo forma</h1>
+        <p>Privalomi laukai pažymėti *.</p>
+        <h2>Kontaktinė informacija</h2>
+
+        <form>
+            <fieldset>
+                <legend>Kreipinys</legend>
+                <ul>
+                    <li><label> <input type='radio' name='kreipinys'>Ponas</label></li>
+                    <li><label> <input type='radio' name='kreipinys'>Ponia</label></li>
+                </ul>
+            </fieldset>
+
+            <p><label for='firstname'>Vardas*:</label>
+                <input type='text' id='firstname' name='firstName' placeholder='Vardas' required>
+            </p>
+            <p><label for='lastname'>Pavardė*:</label>
+                <input type='text' id='lastname' name='lastName' placeholder='Pavardė' required>
+            </p>
+            <p><label for='email'>El.pašto adresas*:</label>
+                <input type='email' id='email' name='email' pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$'
+                    title='Must contain @' placeholder='El.pašto adresas' required>
+            </p>
+            <p><label for='password'>Slaptažodis*:</label>
+                <i>
+                    <input type='password' id='password' name='password' pattern='(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
+                        title=' Must contain at least one number and one uppercase and lowercase letter, and at least 8 or
+                        more characters' placeholder='Slaptažodis' required>
+                    Sudarytas iš didžiųjų, mažųjų raidžių, skaičių ir netrumpesnis kaip 8 simboliai.
+                </i>
+            </p>
+
+            <h2>Mokėjimo forma</h2>
+
+            <label for='korteles-tipas'>Kortelės tipas*:</label>
+            <select id='korteles-tipas' name='korteles-info' required>
+                <option value=''>--Pasirinkite--</option>
+                <option value='debetine'>Debetinė</option>
+                <option value='kreditine'>Kreditinė</option>
+            </select>
+
+            <p>
+                <label for='kortelės-numeris'>Kortelės numeris*:</label>
+                <i>
+                    <input type='number' id='kortelės-numeris' name='korteles-info' min='0'
+                        title='Must contain 16 digits' placeholder='Kortelės numeris' required>Sudarytas iš 16
+                    skaitmenų.
+                </i>
+            </p>
+
+            <label for='kortelės-data'>Kortelės galiojimo data*:</label>
+            <input type='date' id='kortelės-data' name='korteles-info' value='2000-10-10' required>
+
+            <p><input type="submit" value="Patvirtinkite mokėjimą">
+                <input type="reset" value="Atšaukite mokėjimą">
+            </p>
+        </form>
+    </main>
+
+    <hr>
+    <footer>
+        <h1>Ačiū, kad pirkote!</h1>
+        <p class='vardas'>Aura Špejeraitė, JS21-2</p>
+        <p class='metai'>2021 m.</p>
+    </footer>
+
+</body>
+
+</html>

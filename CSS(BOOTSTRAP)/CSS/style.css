@@ -1,0 +1,51 @@
+* {
+    font-family: Verdana;
+}
+.header-tag {
+    letter-spacing: 0.8em;
+    font-size: 5em;
+}
+
+.header-tag, .nav-link, .col-lg-8 > h1:nth-child(1), article h1,article a, h2, i {
+    color: #b878b5;
+}
+
+form .btn {
+    background-color: #b878b5;
+    color: #fff;
+}
+
+nav.navbar ul{
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav .nav-item .nav-link:hover, article a:hover {
+color: rgb(70, 70, 70);
+text-decoration: none;
+}
+
+@media (max-width: 576px) {
+.header-tag {
+    font-size: 4em;
+}
+
+main .img-fluid {
+    display: none;
+}
+
+main .col-lg-8 {
+    margin-top: 2em;
+}
+}
+
+@media (max-width: 575.98px) and (min-width: 767.98px){
+    section .carousel-inner {
+        position: relative;
+
+    }
+
+    main .img-fluid {
+        position: absolute;
+    }
+}

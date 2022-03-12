@@ -1,0 +1,106 @@
+		7.
+
+	a.
+let kg = prompt('Type your weight:',51);
+
+if(kg<=55) {
+console.log('Balerina gali prisijungti prie trupės');
+} else {
+console.log('Balerina negali prisijungti prie trupės');
+};
+
+	b.
+let kg = prompt('Type your weight:',62);
+
+if(kg<=62) {
+console.log('Balerina gali prisijungti prie trupės');
+} else {
+console.log('Balerina negali prisijungti prie trupės');
+};
+
+		8.
+let KP = prompt('Type KP:');
+let magnetinisLaukasRamus = [0, 1, 2, 3];
+let neramusMagnetinisLaukas = 4;
+let magnetineAudra = [5, 6, 7, 8, 9];
+
+switch(parseInt(KP)) {
+	case 0:
+		console.log('Magnetinis laukas ramus');
+		break;
+	case 1:
+		console.log('Magnetinis laukas ramus');
+		break;
+	case 2:
+		console.log('Magnetinis laukas ramus');
+		break;
+	case 3:
+		console.log('Magnetinis laukas ramus');
+		break;
+	case 4:
+		console.log('Neramus magnetinis laukas');
+		break;
+	case 5:
+		console.log('Magnetine audra');
+		break;
+	case 6:
+		console.log('Magnetine audra');
+		break;
+	case 7:
+		console.log('Magnetine audra');
+		break;
+	case 8:
+		console.log('Magnetine audra');
+		break;
+	case 9:
+		console.log('Magnetine audra');
+		break;
+	default:
+		console.log('');
+}
+
+		9.
+let a = prompt('Type first number:', 5);
+let b = prompt('Type second number:', 88);
+let c = prompt('Type third number:', 41);
+
+a = parseInt(a);
+b = parseInt(b);
+c = parseInt(c);
+
+if (a < b && a < c) {
+	console.log(a);
+} else if (b < a && b < c) {
+	console.log(b);
+} else {
+	console.log(c);
+}
+
+		10.
+1984 = 1 //zalia
+1985 = 2 //
+1986 = 3 //raudona
+1987 = 4 // 
+1988 = 5 //geltona
+1989 = 6 //
+
+let metai = prompt(..);
+let eile = metai - 
+
+		11.
+let a
+let b
+let c
+let d
+
+let visaslaikas = (a+c)+60+b+d;
+let h2 = math.floor(visaslaikas / 60);
+letmin2 = visaslaikas % 60;
+		
+		12.
+
+let metai
+let menuo
+let d
+
+if(metai % 4===0) && !(metai % 100

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <!-- Bootstrap CSS -->
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous'>
+    <script src='https://kit.fontawesome.com/0b97970022.js' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='./CSS/style.css' type="text/css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <header class='container'>
+        <div class='row mt-4'>
+            <div class='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
+                <h1 class='header-tag'>MOVE</h1>
+                <p class='lead text-muted'>Aura Špejeraitė JS21/2(Ryt.)</p>
+            </div>
+            <div class='col-lg-6 col-md-12 col-sm-12 mt-md-5 mt-sm-5'>
+                <p>Dance Performance</p>
+                <input class='form-control me-2' type='search' placeholder='Search by Dance Performance Name'>
+            </div>
+            <div class='row column-12 mt-3'>
+                <nav class='navbar fs-2 border-top'>
+                    <ul class='nav'>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='#'>Home</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='#'>About</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='#'>Classes</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='#'>Staf</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class='container'>
+        <section class='row column-12'>
+            <div id='carouselControls' class='carousel slide' data-bs-ride='carousel'>
+                <div class='carousel-inner'>
+                    <div class='carousel-item active'>
+                        <img class='img-fluid d-block w-100' src='./IMG/slide-2.jpg' alt='group of dancers'>
+                    </div>
+                    <div class='carousel-item'>
+                        <img class='img-fluid d-block w-100' src='./IMG/slide-3.jpg' alt='group of dancers'>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class='row mt-lg-5 mt-md-5 mt-sm-0 border-bottom'>
+            <div class='col-lg-4 d-md-none d-sm-none'>
+                <img class='img-fluid' src='./IMG/page1_img1.jpg' alt='female dancer'>
+            </div>
+            <div class='col-lg-8 col-md-12 col-sm-12 mb-5'>
+                <h1>The Way You Move | Registration</h1>
+                <form>
+                    <div class='mb-3'>
+                        <label for='FirstName' class='form-label'>Firstname</label>
+                        <input type='text' class='form-control' id='FirstName' placeholder='Firstname'>
+                    </div>
+                    <div class='mb-3'>
+                        <label for='LastName' class='form-label'>Lastname</label>
+                        <input type='text' class='form-control' id='LastName' placeholder='Lastname'>
+                    </div>
+                    <div class='mb-3'>
+                        <label for='Age' class='form-label'>Age Groups</label>
+                        <select class='form-select' id='Age'>
+                            <option>--Select--</option>
+                            <option value='childrens'>11-15</option>
+                            <option value='teenagers'>15-19</option>
+                            <option value='adults'>20-26</option>
+                        </select>
+                    </div>
+                    <div class='mb-3'>
+                        <label for='DanceName' class='form-label'>The name of the dance performance</label>
+                        <input type='text' class='form-control' id='DanceName'
+                            placeholder='The name of the dance performance'>
+                    </div>
+                    <div class='mb-3'>
+                        <label for='YT-URL' class='form-label'>URL to Music on YOUTUBE</label>
+                        <input type='text' class='form-control' id='YT-URL' placeholder='URL'>
+                    </div>
+                    <button type='submit' class='btn'>Register</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <article class='container'>
+        <div class='row pt-5'>
+            <div class='col-lg-6 col-md-12 col-sm-12'>
+                <div class='row column-12'>
+                    <h1>Recent</h1>
+                    <h1>Publications</h1>
+                </div>
+                <div class='row mt-4'>
+                    <div class='col-lg-6 col-md-6 col-sm-12'>
+                        <h2>How to Join</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus reprehenderit, quaerat ea
+                            perferendis a blanditiis non!</p>
+                        <button class='btn p-0'><a class='text-decoration-none' href='#'>more</a></button>
+                    </div>
+                    <div class='col-lg-6 col-md-6 col-sm-12'>
+                        <h2>Our Styles</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus reprehenderit, quaerat ea
+                            perferendis a blanditiis non!</p>
+                        <button class='btn p-0'><a class='text-decoration-none' href='#'>more</a></button>
+                    </div>
+                </div>
+                <div class='row mt-4'>
+                    <div class='col-lg-6 col-md-6 col-sm-12'>
+                        <h2>Schedule</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus reprehenderit, quaerat ea
+                            perferendis a blanditiis non!</p>
+                        <button class='btn p-0'><a class='text-decoration-none' href='#'>more</a></button>
+                    </div>
+                    <div class='col-lg-6 col-md-6 col-sm-12'>
+                        <h2>Flexibility & Strength</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus reprehenderit, quaerat ea
+                            perferendis a blanditiis non!</p>
+                        <button class='btn p-0'><a class='text-decoration-none' href='#'>more</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class='col-lg-6 col-md-12 col-sm-12 text-sm-center'>
+                <img class='img-fluid mt-md-3 mt-sm-3' src='./IMG/page1_img2.jpg' alt='female-dancer'>
+            </div>
+        </div>
+    </article>
+
+    <footer class='container'>
+        <div class='row column-12 d-flex flex-column mt-4 pt-4 border-top'>
+            <i class='fab fa-facebook-square fs-2 text-sm-center'><a class='text-decoration-none text-dark fs-5' href='#'> @danceschool.org</a></i>
+            <p class='text-center pt-5'>Aura Špejeraitė JS-21/2(Ryt.)</p>
+            <p class='text-center'>2019 - 2020 m.m.</p>
+        </div>
+    </footer>
+
+
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'
+        integrity='sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p'
+        crossorigin='anonymous'></script>
+</body>
+
+</html>

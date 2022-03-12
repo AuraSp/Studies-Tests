@@ -1,0 +1,46 @@
+----------1.--------
+
+let number = -10;
+let i = -100;
+
+for (; number >= i; i++) {
+	console.log(i);
+}
+
+----------2.--------
+
+let number = parseInt(prompt('Enter a number: '));
+let powerNumber = parseInt(prompt('Enter a power number: '))
+let multiply = number;
+
+  for (let i = 1; i < powerNumber; i++) {
+    multiply *= number;
+}
+  console.log(multiply);
+
+----------3.--------
+
+let numberOfRow = parseInt(prompt('Įveskite eilučių skaičių: '));w
+let numberOfColumn = parseInt(prompt('Įveskite stulpelių skaičių: '));
+let string = "";
+
+for(let i = 0; i < numberOfColumn; i++) { // external loop
+  for(let j = 0; j < numberOfRow; j++) { // internal loop
+    string += "*";
+  }
+  string += "\n";
+}
+console.log(string);
+
+----------4.--------
+
+let dainųSkaičius = parseInt(prompt('Įveskite dainų skaičių: '));
+let pirmosDainosTrukmė = parseInt(prompt('Įveskite trukmės laiką pirmos dainos: '));
+let antrosDainosTrukmė = parseInt(prompt('Įveskite trukmės laiką antros dainos: '));
+let trečiosDainosTrukmė = parseInt(prompt('Įveskite trukmės laiką trečios dainos: '));
+
+let visasLaikas = 40 + (pirmosDainosTrukmė + antrosDainosTrukmė + trečiosDainosTrukmė);
+let minutės = visasLaikas.toString().substr(0, 2);
+let sekundės = visasLaikas.toString().substr(3, 1);
+console.log('Viso:' + minutės + '. ' + sekundės + 'sek.');
+

@@ -1,0 +1,31 @@
+.logo {
+    width: 20em;
+    padding-bottom: 1em;
+}
+
+img {
+    width: 10em;
+    margin-right: 7em;
+}
+
+.first-column {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.second-column {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.third-column {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.vardas, .metai {
+    font-style: italic;
+}
